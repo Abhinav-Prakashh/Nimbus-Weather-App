@@ -78,7 +78,7 @@ Design influence: Japanese minimalism meets modern weather aesthetics.
 
 ## 🪄 Credits
 
-Made with ❤️ by Abhinav Prakash
+Made with creativenes⚡by Abhinav Prakash
 Inspired by calm skies and clean code ☁️
 
 ## 📜 License
