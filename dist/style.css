@@ -1,0 +1,116 @@
+body {
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background: linear-gradient(180deg, #f9f4e7 0%, #fff7e1 100%);
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container {
+    position: relative;
+    height: 500px;
+    width: 600px;
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+    animation: floatIn 1.5s ease-out;
+}
+
+h1 {
+  margin-bottom: 0.3em;
+  margin-left: 3.5rem;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    z-index: 1;
+    animation: floatIn 1.5s ease-out;
+}
+
+#cityInput {
+    height: 30px;
+    width: 300px;
+    border: 2px solid #ffb67a;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+#cityInput:focus {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#getWeatherBtn {
+    color: white;
+    background-color: black;
+    border: 2px solid transparent;
+    height: 34px;
+    width: 100px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+#getWeatherBtn:hover {
+  /* background-color: #545454; */
+  /* color: black; */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.home-image {
+    height: 150px;
+    display: block;
+    object-fit: contain;
+    position: relative;
+    bottom: 130px;
+    right: 20px;
+    animation: floatIn 1.5s ease-out;
+    pointer-events: none;
+}
+
+@keyframes floatIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sun-image{
+    height: 100px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tagline {
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+}
+
+.border {
+    position: absolute;
+    height: 50px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.right-border{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transform: rotate(180deg);
+}
