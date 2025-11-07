@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; 
+import { apiKey } from "./apiKey.js";
 
 const $cityInput = $("#cityInput");
 const $getWeatherBtn = $("#getWeatherBtn");
