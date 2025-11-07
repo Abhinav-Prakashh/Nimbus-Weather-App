@@ -1,4 +1,4 @@
-const apiKey = "0d6a1b18fabeca40dbd4353a7034aaa7";
+const apiKey = "YOUR_API_KEY";
 
 const $cityInput = $("#cityInput");
 const $getWeatherBtn = $("#getWeatherBtn");
