@@ -114,3 +114,7 @@ p {
     right: 15px;
     transform: rotate(180deg);
 }
+
+.hidden {
+    display: none;
+}
