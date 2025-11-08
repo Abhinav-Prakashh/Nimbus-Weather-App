@@ -137,4 +137,4 @@ dist-api
 .pnp.*
 
 src/apiKey.js
-.vercel
+api/*.js
