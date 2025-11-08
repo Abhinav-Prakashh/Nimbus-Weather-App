@@ -1,11 +1,14 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "CommonJS",
-    "types": ["node"],
     "rootDir": ".",
-    "outDir": "../dist-api"
+    "outDir": "../dist-api",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"],
+    "skipLibCheck": true
   },
   "include": ["**/*.ts"]
 }
