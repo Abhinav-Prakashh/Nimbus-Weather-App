@@ -1,4 +1,5 @@
-import { apiKey } from "./apiKey.js";
+// import { apiKey } from "./apiKey.js";
+const apiKey = process.env.API_KEY as string;
 
 const $cityInput = $("#cityInput");
 const $getWeatherBtn = $("#getWeatherBtn");
