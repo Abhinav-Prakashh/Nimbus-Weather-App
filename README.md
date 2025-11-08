@@ -31,8 +31,8 @@ It provides real-time weather updates for any city — designed with a calm, aes
 ---
 
 ## Preview (Mobile)
-<img src="public/assets/Screen-3.png" width="300">
-<img src="public/assets/Screen-4.png" width="300">
+<img src="public/assets/Screen-3.png" width="100">
+<img src="public/assets/Screen-4.png" width="100">
 
 ---
 
