@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "types": ["jquery"],
+    "rootDir": ".",
+    "outDir": "../dist",
+    "allowJs": true
+  },
+  "include": ["**/*.ts"]
+}

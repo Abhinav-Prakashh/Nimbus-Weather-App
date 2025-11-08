@@ -1,15 +1,3 @@
-let apiKey: string;
-
-if (typeof process !== "undefined" && process.env.API_KEY) {
-  apiKey = process.env.API_KEY as string;
-} else {
-  const localApi = require("./apiKey.js");
-  apiKey = localApi.default;
-}
-
-// import { apiKey } from "./apiKey.js";
-// const apiKey = process.env.API_KEY as string;
-
 const $cityInput = $("#cityInput");
 const $getWeatherBtn = $("#getWeatherBtn");
 
@@ -24,8 +12,7 @@ const $mainContainer = $(".main-container");
 
 // API fetch function
 async function fetchWeather(city: string) {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-    const res = await fetch(url);
+    const res = await fetch(`/api/getWeather?city=${city}`);
     if (!res.ok) throw new Error("City not found");
     return res.json();
 }
