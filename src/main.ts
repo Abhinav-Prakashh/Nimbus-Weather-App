@@ -36,6 +36,8 @@ $("#getWeatherBtn").on("click", async () => {
             if (desc.includes("rain")) return "assets/rainy.png";
             if (desc.includes("thunder")) return "assets/ThunderStorm.png";
             if(desc.includes("clear") || desc.includes("sunny")) return "assets/Sunny.png";
+            if(desc.includes("snow")) return "assets/snow.png";
+            if(desc.includes("haze")) return "assets/haze.png";
             return "assets/default.png";
         }
 
