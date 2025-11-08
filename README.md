@@ -23,6 +23,19 @@ It provides real-time weather updates for any city — designed with a calm, aes
 
 ---
 
+## Preview (Desktop)
+
+![Screen1](assets/Screen-1.png)
+![Screen2](assets/Screen-2.png)
+
+---
+
+## Preview (Mobile)
+![Screen3](assets/Screen-3.png)
+![Screen4](assets/Screen-4.png)
+
+---
+
 ## 🛠️ Tech Stack  
 
 | Layer | Tools Used |
