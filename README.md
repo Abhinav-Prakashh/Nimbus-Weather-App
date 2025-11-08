@@ -25,14 +25,14 @@ It provides real-time weather updates for any city — designed with a calm, aes
 
 ## Preview (Desktop)
 
-![Screen1](public/assets/Screen-1.png)
-![Screen2](public/assets/Screen-2.png)
+<img src="public/assets/Screen-1.png" width="300">
+<img src="public/assets/Screen-2.png" width="300">
 
 ---
 
 ## Preview (Mobile)
-![Screen3](public/assets/Screen-3.png)
-![Screen4](public/assets/Screen-4.png)
+<img src="public/assets/Screen-3.png" width="300">
+<img src="public/assets/Screen-4.png" width="300">
 
 ---
 
