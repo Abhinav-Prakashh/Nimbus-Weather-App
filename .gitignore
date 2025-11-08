@@ -136,5 +136,6 @@ dist-api
 .yarn/install-state.gz
 .pnp.*
 
+public/apiKey.js
 src/apiKey.js
 api/*.js

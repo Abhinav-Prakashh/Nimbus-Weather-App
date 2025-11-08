@@ -1,3 +1,5 @@
+import { apiKey } from "./apiKey.js"; 
+
 const $cityInput = $("#cityInput");
 const $getWeatherBtn = $("#getWeatherBtn");
 
@@ -11,12 +13,12 @@ const $weatherDesc = $("#weather-desc");
 const $mainContainer = $(".main-container");
 
 // API fetch function
-async function fetchWeather(city: string) {
-    const res = await fetch(`/api/getWeather?city=${city}`);
-    if (!res.ok) throw new Error("City not found");
-    return res.json();
+async function fetchWeather(city: string) { 
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; 
+    const res = await fetch(url); 
+    if (!res.ok) throw new Error("City not found"); 
+    return res.json(); 
 }
-
 $("#getWeatherBtn").on("click", async () => {
     const city = ($cityInput.val() as string).trim();
 
