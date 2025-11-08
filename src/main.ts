@@ -1,4 +1,13 @@
-import { apiKey } from "./apiKey.js";
+let apiKey: string;
+
+if (typeof process !== "undefined" && process.env.API_KEY) {
+  apiKey = process.env.API_KEY as string;
+} else {
+  const localApi = require("./apiKey.js");
+  apiKey = localApi.default;
+}
+
+// import { apiKey } from "./apiKey.js";
 // const apiKey = process.env.API_KEY as string;
 
 const $cityInput = $("#cityInput");
